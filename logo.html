@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+       body {
+    background-color: rgb(22, 21, 21);
+   }
+.parent {
+    width: 300px;
+    height: 300px;
+    transform: rotate(45deg);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: 17%;
+    }
+
+.square {
+
+    width: 228px;
+    height: 228px;
+    margin-left: 0px;
+    border-right: 36px solid #bbb2af;
+    border-left: 36px solid #7fcaac;
+   margin-right: 50px;
+}
+
+.text {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    bottom: 120px;
+    color: white;
+    transform: rotate(-45deg);
+    font-size: 20px;
+}
+
+.span {
+    color: orange;
+}
+
+
+.small_div {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: #e6653a;
+}
+
+
+.small_div2 {
+    justify-content: space-between;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #01affe;
+}
+
+.first {
+    width: 36px;
+    height: 36px;
+    background-color: #975941;
+
+}
+
+.second{
+    width: 36px;
+    height: 36px;
+    background-color: #b04d30;
+}
+     
+
+.third {
+    width: 36px;
+    height: 36px;
+    background-color: #0088a7;
+}
+
+.fourth {
+    width: 36px;
+    height: 36px;
+    background-color: #00abac;
+}
+
+#name {
+    margin-top: -24px;
+  margin-left: 15px;  
+}
+     </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="small_div">
+            <div class="first"></div>
+            <div class="second"></div>
+        </div>
+        <div class="square">
+
+            <div class="text">
+                <h2>HTML <span class="span">&</span>CSS</h2>
+                <h6 id="name">Design and build Websites</h6>
+            </div>
+        </div>
+        <div class="small_div2">
+            <div class="third"></div>
+            <div class="fourth"></div>
+        </div>
+    </div>
+</body>
+</html>
